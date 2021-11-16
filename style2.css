@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /*falta el rem truco*/
+
+  .contenedor{
+    max-width: 30rem; /*anchura máxima*/
+    width: 95%; /* debe ser en porcentajes para que sea responsive y se adapte bien*/
+    margin:auto;
+  }
